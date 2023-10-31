@@ -1,0 +1,38 @@
+span {
+    content: "\2713";
+  }
+
+.app{
+    background-color: blue;
+    height:100%;
+    padding:10px;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+.card{
+    background-color: white;
+    border:none;
+    width:250px;
+    margin:20px;
+    padding:10px;
+    border-radius:15px;
+}
+button{
+    width:250px;
+    color:white;
+    background-color: blue;
+    height:30px;
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+}
+.header{
+    text-align:center;
+}
+.transparency{
+    opacity:0.5;
+}
+#singleTransparency{
+    opacity:0.5;
+}
